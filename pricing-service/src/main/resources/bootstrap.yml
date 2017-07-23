@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: pricing-service
+    
+  profiles:
+    active: REGISTRY

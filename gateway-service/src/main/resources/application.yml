@@ -1,0 +1,15 @@
+logging:
+  level:
+    org.springframework: INFO
+  
+server:
+  port: 54321
+  
+management:
+  security:
+    enabled: false
+
+eureka:
+ client:
+    serviceUrl:
+      defaultZone: http://localhost:12345/eureka

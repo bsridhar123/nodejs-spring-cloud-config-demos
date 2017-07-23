@@ -1,0 +1,15 @@
+server:
+  port: 8888
+  
+  
+management:
+  security:
+    enabled: false
+    
+    
+      
+eureka:
+ client:
+    serviceUrl:
+      defaultZone: http://localhost:12345/eureka
+      

@@ -1,0 +1,15 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:12345/eureka/
+  instance:
+    lease-renewal-interval-in-seconds: 5
+    
+server:
+  port: 9090
+
+
+sidecar:
+  port: 8081
+  health-uri: http://localhost:8081/health
+  home-page-uri: http://localhost:8081/
